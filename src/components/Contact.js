@@ -20,7 +20,7 @@ const Contact = () => {
                     </label>
                     <input
                         required="yes"
-                        className="w-full text-lg h-10 mt-4 text-xl bg-slate-800 border-b-2 border-white outline-none"
+                        className="w-full text-xl h-10 mt-4 bg-slate-800 border-b-2 border-white outline-none"
                         type="text"
                         name="name"
                         id="name"

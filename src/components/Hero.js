@@ -13,7 +13,7 @@ const Hero = () => {
                 saepe quaerat, numquam sequi eveniet a!
             </div>
 
-            <h2 className="underline decoration-indigo-500 decoration-4 text-2xl">CONTACT ME</h2>
+            <button className="pb-2 border-b-4 text-2xl border-indigo-500">CONTACT ME</button>
         </section>
     );
 };

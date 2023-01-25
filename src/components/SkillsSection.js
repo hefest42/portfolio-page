@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillsSection = () => {
     return (
-        <section className="p-16 border-y-2 flex flex-col justify-center items-center">
+        <section className="w-[90%] p-16 border-y-2 flex flex-col justify-center items-center">
             <div className="flex flex-col justify-center items-center">
                 <div className="text-3xl p-6">HTML</div>
                 <div className="text-3xl p-6">CSS</div>

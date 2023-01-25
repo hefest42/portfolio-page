@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = () => {
     return (
-        <div className="w-full my-6">
+        <div className="w-full my-20">
             <div>
                 <img
                     src="https://cdn2.unrealengine.com/egs-forspoken-carousel-desktop-1248x702-290361407e30.jpg?h=1080&resize=1&w=1920"

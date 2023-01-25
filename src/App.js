@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 
 function App() {
     return (
-        <div className="bg-slate-800 text-white">
+        <div className=" bg-black text-white">
             <Header />
             <Hero />
             <SkillsSection />

@@ -1,12 +1,12 @@
 import React from "react";
 
-const Contact = () => {
+const Contact = ({ contactRef }) => {
     const sendEmailHandler = (e) => {
         e.preventDefault();
     };
 
     return (
-        <div className="bg-slate-800 py-16 px-4 flex flex-col justify-center items-center">
+        <div className="bg-slate-800 py-16 px-4 flex flex-col justify-center items-center" ref={contactRef}>
             <h2 className="text-5xl">Contact</h2>
             <p className="text-lg text-center py-8">
                 I would love to hear about your project and how i could help. Please fill in the from, and I'll get back

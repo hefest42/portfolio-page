@@ -2,7 +2,7 @@ import React from "react";
 
 import { BsArrowDown } from "react-icons/bs";
 
-const Hero = () => {
+const Hero = ({ executeScroll }) => {
     return (
         <section className="flex flex-col justify-center items-center py-16 px-8">
             <div className="text-4xl text-bold text-center">
@@ -15,7 +15,9 @@ const Hero = () => {
                 saepe quaerat, numquam sequi eveniet a!
             </div>
 
-            <button className="pb-2 border-b-4 text-2xl border-indigo-500">CONTACT ME</button>
+            <button className="pb-2 border-b-4 text-2xl border-indigo-500" onClick={() => executeScroll()}>
+                CONTACT ME
+            </button>
             <div className="mt-20">
                 <BsArrowDown className="w-10 h-10 animate-bounce" />
             </div>

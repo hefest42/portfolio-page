@@ -1,3 +1,5 @@
+import { useRef } from "react";
+
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import SkillsSection from "./components/SkillsSection";
@@ -6,13 +8,17 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+    const contactRef = useRef(null);
+
+    const executeScroll = () => contactRef.current.scrollIntoView({ behavior: "smooth" });
+
     return (
         <div className=" bg-black text-white flex flex-col justify-start items-center">
             <Header />
-            <Hero />
+            <Hero executeScroll={executeScroll} />
             <SkillsSection />
-            <Projects />
-            <Contact />
+            <Projects executeScroll={executeScroll} />
+            <Contact contactRef={contactRef} />
             <Footer />
         </div>
     );

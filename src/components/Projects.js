@@ -14,10 +14,14 @@ const Projects = ({ executeScroll }) => {
                 </button>
             </div>
             <div className="mt-6">
-                <Project />
-                <Project />
-                <Project />
-                <Project />
+                <div>
+                    <Project />
+                    <Project />
+                </div>
+                <div>
+                    <Project />
+                    <Project />
+                </div>
             </div>
         </section>
     );

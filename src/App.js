@@ -18,6 +18,7 @@ function App() {
                 <Header />
                 <Hero executeScroll={executeScroll} />
                 <SkillsSection />
+                <Projects />
             </div>
         </div>
     );

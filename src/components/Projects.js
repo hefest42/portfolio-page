@@ -6,7 +6,7 @@ const PROJECTS = [{}, {}, {}, {}];
 
 const Projects = ({ executeScroll }) => {
     return (
-        <section className="w-[95%] md:py-10 py-16 px-3">
+        <section className="lg:w-[80%] md:py-10 py-16 px-3">
             <div className="flex justify-between">
                 <h2 className="text-4xl">Projects</h2>
                 <button

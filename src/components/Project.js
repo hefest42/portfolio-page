@@ -2,26 +2,32 @@ import React from "react";
 
 const Project = () => {
     return (
-        <div className="md:w-[45%] w-[95%] my-20">
-            <div>
+        <div className="w-full h-80 flex flex-col-reverse justify-center items-start">
+            <div className="w-[30rem] h-full flex flex-col justify-between items-start">
+                <div>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic natus cum rerum fugit tempore, quas
+                    nostrum cupiditate quaerat odit optio a sint nulla? Omnis, amet!
+                </div>
+
+                <div className="flex">
+                    <p className="bg-slate-700 rounded-3xl px-4 py-2 mr-4">HTML</p>
+                    <p className="bg-slate-700 rounded-3xl px-4 py-2 mr-4">CSS</p>
+                    <p className="bg-slate-700 rounded-3xl px-4 py-2 mr-4">React</p>
+                </div>
+            </div>
+
+            <div className="w-full h-full">
                 <img
+                    className="w-full h-full object-cover"
+                    loading="lazy"
                     src="https://cdn2.unrealengine.com/egs-fortnite-kid-laroi-announce-carousel-desktop-1248x702-f15122cae6ef.jpg?h=1080&resize=1&w=1920"
                     alt=""
-                    loading="lazy"
                 />
-            </div>
-            <h1 className="text-3xl">PROJECT NAME</h1>
-            <div className="my-4 flex justify-start items-center">
-                <p className="mr-4">HTML</p>
-                <p className="mr-4">CSS</p>
-                <p className="mr-4">REACT</p>
-            </div>
-            <div>
-                <button className="pb-2 mr-6 border-b-4 text-2xl border-indigo-500">VIEW PROJECT</button>
-                <button className="pb-2 mr-6 border-b-4 text-2xl border-indigo-500">VIEW CODE</button>
             </div>
         </div>
     );
 };
 
 export default Project;
+
+// src="https://cdn2.unrealengine.com/egs-fortnite-kid-laroi-announce-carousel-desktop-1248x702-f15122cae6ef.jpg?h=1080&resize=1&w=1920"

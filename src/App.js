@@ -13,12 +13,6 @@ function App() {
 
     return (
         <div className="f-full bg-black text-white flex flex-col justify-start items-center">
-            <div className="lg:w-[80%] md:w-[95%] flex flex-col justify-start items-center">
-                <Header />
-                <Hero executeScroll={executeScroll} />
-                <SkillsSection />
-                <Projects executeScroll={executeScroll} />
-            </div>
             <Footer />
         </div>
     );

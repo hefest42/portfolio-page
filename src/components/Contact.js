@@ -42,37 +42,3 @@ const Contact = ({ contactRef }) => {
 };
 
 export default Contact;
-
-{
-    /* <div className="w-full lg:py-2 py-8">
-    <label className="w-full text-slate-400" htmlFor="email">
-        EMAIL
-    </label>
-    <input
-        required="yes"
-        className="w-full h-10 mt-4 text-xl bg-slate-800 border-b-2 border-white outline-none"
-        type="email"
-        name="email"
-        id="email"
-    />
-</div>; */
-}
-
-{
-    /* <div className="w-full lg:py-2 py-8">
-    <label className="w-full text-lg text-slate-400" htmlFor="text-area">
-        MESSAGE
-    </label>
-    <textarea
-        required="yes"
-        className="w-full h-[6rem] text-xl mt-4 bg-slate-800 border-b-2 border-white outline-none"
-        name="text-area"
-        id="text-area"
-        cols="30"
-        rows="10"
-    ></textarea>
-    <div className="w-full flex justify-end mt-8">
-        <button className="pb-2 border-b-4 border-indigo-500 lg:text-xl">SEND MESSAGE</button>
-    </div>
-</div>; */
-}

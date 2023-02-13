@@ -6,8 +6,11 @@ const Contact = ({ contactRef }) => {
     };
 
     return (
-        <div className="bg-slate-800 lg:p-4 py-16 px-4 flex flex-col justify-center items-center" ref={contactRef}>
-            <div className="lg:w-full md:w-[60%] flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:items-start">
+        <div
+            className="lg:w-[65%] md:w-[90%] lg:p-4 md:py-4 py-16 px-4 border-b-4 flex flex-col justify-center items-center"
+            ref={contactRef}
+        >
+            <div className="lg:w-full md:w-[80%] flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:items-start">
                 <div className="lg:w-[45%] h-full flex flex-col justify-start items-center lg:justify-start lg:items-start">
                     <h2 className="text-5xl lg:text-7xl">Contact</h2>
                     <p className="text-lg text-center lg:text-start py-8">

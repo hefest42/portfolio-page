@@ -2,21 +2,26 @@ import React from "react";
 
 const Project = () => {
     return (
-        <div className="w-full h-80 flex flex-col-reverse justify-center items-start">
-            <div className="w-[30rem] h-full flex flex-col justify-between items-start">
-                <div>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic natus cum rerum fugit tempore, quas
-                    nostrum cupiditate quaerat odit optio a sint nulla? Omnis, amet!
-                </div>
+        <div className="w-full h-80 mt-8 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-start">
+            <div className="w-[30rem] h-[100%] flex flex-col justify-between items-start">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quos veritatis voluptatem amet
+                    minima facere aut quis ipsa nisi aliquam, porro dignissimos velit itaque eveniet!
+                </p>
 
                 <div className="flex">
                     <p className="bg-slate-700 rounded-3xl px-4 py-2 mr-4">HTML</p>
                     <p className="bg-slate-700 rounded-3xl px-4 py-2 mr-4">CSS</p>
                     <p className="bg-slate-700 rounded-3xl px-4 py-2 mr-4">React</p>
                 </div>
+
+                <div className="w-full flex justify-between items-center">
+                    <button className=" w-5/12 rounded-3xl h-10 bg-indigo-500">View Project</button>
+                    <button className=" w-5/12 rounded-3xl h-10 bg-indigo-500">Live Demo</button>
+                </div>
             </div>
 
-            <div className="w-full h-full">
+            <div className="w-full lg:w-5/12 h-full">
                 <img
                     className="w-full h-full object-cover"
                     loading="lazy"

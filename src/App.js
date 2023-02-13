@@ -12,7 +12,8 @@ function App() {
     const executeScroll = () => contactRef.current.scrollIntoView({ behavior: "smooth" });
 
     return (
-        <div className="f-full bg-black text-white flex flex-col justify-start items-center">
+        <div className="w-full bg-black text-white flex flex-col justify-start items-center">
+            <Projects />
             <Footer />
         </div>
     );

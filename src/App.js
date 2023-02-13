@@ -17,7 +17,7 @@ function App() {
                 <Header />
                 <Hero executeScroll={executeScroll} />
                 <SkillsSection />
-                <Projects />
+                <Projects executeScroll={executeScroll} />
             </div>
             <Footer />
         </div>

@@ -8,17 +8,20 @@ const Contact = ({ contactRef }) => {
     };
 
     return (
-        <div className="w-11/12 border-b-2 flex flex-col justify-center items-center" ref={contactRef}>
-            <div className="md:w-1/2 flex flex-col justify-center items-center">
-                <div className="flex flex-col justify-start items-center">
+        <div
+            className="w-11/12 lg:w-[65%] border-b-2 lg:pb-10 flex flex-col justify-center items-center"
+            ref={contactRef}
+        >
+            <div className="md:w-1/2 lg:w-full flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start">
+                <div className=" lg:w-5/12 lg:mt-4 flex flex-col justify-start items-center">
                     <h1 className="text-5xl">Contact</h1>
-                    <p className="text-lg text-center mt-8 text-slate-300">
+                    <p className="text-lg lg:text-start text-center mt-8 text-slate-300">
                         I would love to hear about your project and how i could help. Please fill in the from, and I'll
                         get back to you as soon as possbile.
                     </p>
                 </div>
 
-                <form className="w-full py-12" onSubmit={sendEmailHandler}>
+                <form className="w-full lg:w-5/12 py-12 lg:py-0" onSubmit={sendEmailHandler}>
                     <Input type="text" name="Name" />
                     <Input type="email" name="Email" />
 

@@ -34,3 +34,7 @@ button {
 .button {
     @apply bg-indigo-500 hover:bg-indigo-600;
 }
+
+.screen-width {
+    @apply w-11/12 lg:w-[80%] xl:w-[70%] 2xl:w-[60%];
+}

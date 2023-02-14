@@ -3,7 +3,7 @@ import React from "react";
 const Project = ({ picSide }) => {
     return (
         <div
-            className={`w-11/12 h-[35rem] mt-10 flex flex-col-reverse justify-center items-center md:h-[16rem] md:justify-between lg:w-[60%] lg:h-[22rem] lg:mt-16 ${
+            className={`screen-width h-[35rem] mt-10 flex flex-col-reverse justify-center items-center md:h-[16rem] md:justify-between lg:h-[22rem] lg:mt-16 ${
                 picSide === "left" ? "md:flex-row-reverse" : "md:flex-row"
             } ${picSide === "left" ? "lg:flex-row-reverse" : "lg:flex-row"}`}
         >

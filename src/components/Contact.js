@@ -8,10 +8,7 @@ const Contact = ({ contactRef }) => {
     };
 
     return (
-        <div
-            className="w-11/12 lg:w-[65%] border-b-2 lg:pb-10 flex flex-col justify-center items-center"
-            ref={contactRef}
-        >
+        <div className="screen-width border-b-2 lg:pb-10 flex flex-col justify-center items-center" ref={contactRef}>
             <div className="md:w-1/2 lg:w-full flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start">
                 <div className=" lg:w-5/12 lg:mt-4 flex flex-col justify-start items-center">
                     <h1 className="text-5xl">Contact</h1>
